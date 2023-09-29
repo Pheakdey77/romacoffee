@@ -6,21 +6,21 @@
     <title>Document</title>
     <link rel="stylesheet" href="output.css">
 </head>
-<body class="flex justify-center pb-56">
-<div class="container flex flex-col ">
+<body class="flex  justify-center pb-16 flex-col items-center">
+<div class="container flex flex-col items-center">
     <!-- top  -->
-    <nav class="flex flex-row align-middle gap-56" style="height: 132px;">
+    <nav class="flex flex-row items-center  gap-56  " style="height: 132px; width: 100%; ">
         <!-- logo -->
-        <div>
-            <img src="../img/logo.png" alt="" width = 187px;  height=  60px;>
+        <div class="mx-6">
+           <a href="index.html"> <img src="../img/logo.png" alt="" width = 187px;  height=  60px;></a>
         </div>
 
         <!-- menu -->
         <ul class="flex flex-row  gap-14 justify-center items-center ">
-            <li class="font-bold tracking-widest">HOME</li>
-            <li class="font-bold text-gray-500 tracking-widest">OUR PRODUCT</li>
-            <li class="font-bold text-gray-500 tracking-widest">ABOUT</li>
-            <li class="font-bold text-gray-500 tracking-widest">CONTACT</li>
+            <li class="font-bold tracking-widest cursor-pointer">HOME</li>
+            <li class="font-bold text-gray-500 tracking-widest cursor-pointer hover:text-gray-800 transition-all ease-linear delay-100">OUR PRODUCT</li>
+            <li class="font-bold text-gray-500 tracking-widest cursor-pointer hover:text-gray-800 transition-all ease-linear delay-100">ABOUT</li>
+            <li class="font-bold text-gray-500 tracking-widest cursor-pointer hover:text-gray-800 transition-all ease-linear delay-100">CONTACT</li>
         </ul>
     </nav>
     <!--  -->
@@ -44,27 +44,29 @@
             <h1 class="text-center  font-semibold text-3xl" style="width: 962px; height: 73px;  letter-spacing: 1.44px; margin-bottom: 20px;">Our Product</h1>
 
             <div class="flex flex-row flex-wrap gap-6  justify-center items-center" style="width: 769px;  ">
-                <div class="bg-slate-400 rounded-md" style=" width: 227px; height: 309px;"></div>
-                <div class="bg-slate-400 rounded-md" style=" width: 227px; height: 309px;"></div>
-                <div class="bg-slate-400 rounded-md" style=" width: 227px; height: 309px;"></div>
-                <div class="bg-slate-400 rounded-md" style=" width: 227px; height: 309px;"></div>
-                <div class="bg-slate-400 rounded-md" style=" width: 227px; height: 309px;"></div>
-                <div class="bg-slate-400 rounded-md" style=" width: 227px; height: 309px;"></div>
+                <div class="bg-slate-400 rounded-md group-hover:blur-sm hover:!blur-none" style=" width: 227px; height: 309px;"></div>
+                <div class="bg-slate-400 rounded-md group-hover:blur-sm hover:!blur-none" style=" width: 227px; height: 309px;"></div>
+                <div class="bg-slate-400 rounded-md group-hover:blur-sm hover:!blur-none" style=" width: 227px; height: 309px;"></div>
+                <div class="bg-slate-400 rounded-md group-hover:blur-sm hover:!blur-none" style=" width: 227px; height: 309px;"></div>
+                <div class="bg-slate-400 rounded-md group-hover:blur-sm hover:!blur-none" style=" width: 227px; height: 309px;"></div>
+                <div class="bg-slate-400 rounded-md group-hover:blur-sm hover:!blur-none" style=" width: 227px; height: 309px;"></div>
             </div>
 
             </div>
-       
+            
         <!-- About -->
-       <div class="flex flex-col gap-x-10 mt-28   items-center gap-y-56">
-        <h1 class="text-center  font-semibold text-3xl" style="width: 962px; height: 73px;  letter-spacing: 1.44px; margin-bottom: 20px;">About</h1>
+        <div class="flex flex-col gap-x-10 mt-28   items-center gap-y-56">
+            <h1 class="text-center  font-semibold text-3xl" style="width: 962px; height: 73px;  letter-spacing: 1.44px; ">About</h1>
+        </div>
+
+       <div class="flex flex-col gap-x-10 mt-10   items-center gap-y-56">
+       
 
              <!-- row-1 -->
              <div class="flex flex-row " style="gap: 137px;">
-           
-           
             <div style="width: 506px;">
                 <h2 class="font-bold text-2xl mb-10" l>Host a coffee event</h2>
-                <p class="font-light" style="font-size: 20px; font-weight: 400; color: #595959; line-height: 26px;">Host a coffee tasting event or a coffee brewing class and invite your target audience. This creates a unique experience that people will remember and associate with your brand.</p>
+                <p class="font-light text-p" style="font-size: 20px; font-weight: 400; line-height: 26px;">Host a coffee tasting event or a coffee brewing class and invite your target audience. This creates a unique experience that people will remember and associate with your brand.</p>
             </div>
 
             <div>
@@ -80,7 +82,7 @@
             </div>
             <div style="width: 506px;">
                 <h2 class="font-bold text-2xl mb-10" l>Host a coffee event</h2>
-                <p class="font-light" style="font-size: 20px; font-weight: 400; color: #595959; line-height: 26px;">Host a coffee tasting event or a coffee brewing class and invite your target audience. This creates a unique experience that people will remember and associate with your brand.</p>
+                <p class="font-light text-p" style="font-size: 20px; font-weight: 400;  line-height: 26px;">Host a coffee tasting event or a coffee brewing class and invite your target audience. This creates a unique experience that people will remember and associate with your brand.</p>
             </div>
 
            
@@ -96,7 +98,7 @@
                     <p style="width: 435px; " class="text-p ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus in massa tempor nec feugiat nisl</p>
                     <form method="post">
                         <div class="mt-8 flex flex-row gap-4" >
-                            <input type="text" name="email" placeholder="Email"  class="border-2 border-black px-5 py-2 rounded-full text-center flex justify-center" style="font-size: 15px; width: 300px;">
+                            <input type="text" name="email" placeholder="Email"  class="border-2 border-black px-5 py-2 rounded-full text-center flex justify-center" style="font-size: 15px; width: 300px; background-color: white;">
                              <input type="submit" placeholder="Subscribe" class="text-white shadow-md" style="background-color: #121C33; padding: 12px 40px;">
                             
                         </div>
@@ -116,21 +118,80 @@
 
             </div>
 
+            <!-- news -->
+            <div class="flex flex-row gap-24">
+            <div class="flex flex-col gap-2 hover:shadow-2xl p-3  transition-all ease-linear delay-100 ">
+                <div class="bg-slate-400 " style=" width: 279px; height: 390px;"></div>
+                <h1 class="text-base">Heading Lorem</h1>
+                <p style="width: 279px; font-size: 14px;" class="text-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor necessitatibus inventore quibusdam adipisci doloribus commodi incidunt suscipit eveniet in earum!</p>
+            </div>
+
+            <div class="flex flex-col gap-2 hover:shadow-2xl p-3  transition-all ease-linear delay-100 ">
+                <div class="bg-slate-400 " style=" width: 279px; height: 390px;"></div>
+                <h1 class="text-base">Heading Lorem</h1>
+                <p style="width: 279px; font-size: 14px;" class="text-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor necessitatibus inventore quibusdam adipisci doloribus commodi incidunt suscipit eveniet in earum!</p>
+            </div>
+
+            <div class="flex flex-col gap-2 hover:shadow-2xl p-3  transition-all ease-linear delay-100 ">
+                <div class="bg-slate-400 " style=" width: 279px; height: 390px;"></div>
+                <h1 class="text-base">Heading Lorem</h1>
+                <p style="width: 279px; font-size: 14px;" class="text-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor necessitatibus inventore quibusdam adipisci doloribus commodi incidunt suscipit eveniet in earum!</p>
+            </div>
+          
+
+            </div>
 
         
     </div>
-       
-       
-       
-       
-       
-       
+
+
         </div>
       
      
+    <!-- footer --> 
+        <div class="flex flex-row mt-60 items-center justify-between w-max gap-52  container" style="width: 100%;"   >
+            <!-- footer logo -->
+            <div>
+                <img src="../img/logo.png" alt="" width="254">
+                <p style="width: 296px;" class="text-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+            </div>
 
 
-    <!--  -->
+            <div class="flex flex-">
+                <!-- menu -->
+            <div>
+                <ul>
+                    <li>MENU</li>
+                    <li>Home</li>
+                    <li>Our Products</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            <!-- follow us -->
+            <div>
+                <ul>
+                    <li>FOLLOW US</li>
+                    <li>Facebook</li>
+                    <li>Instragram</li>
+                    <li>Pinterest</li>
+                    <li>Twitter</li>
+                </ul>
+            </div>
+
+            <!-- contact -->
+            <div>
+                <ul>
+                    <li>CONTACT US</li>
+                    <li>We're always happy to help</li>
+                    <li>romacoffee.com</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+
+    
 
       
 </div>
