@@ -1,0 +1,13 @@
+.card:hover .body-overflow{
+    top: 0;
+}
+.card:hover product_img{
+    transform: scale(1.1);
+}
+.body-overflow{
+    transition: all .4s ease;
+
+}
+.card{
+    cursor: pointer;
+}
