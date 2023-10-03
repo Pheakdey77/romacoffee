@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="flex  justify-center  flex-col items-center">
-<div class="container flex flex-col items-center">
+<div class="container flex flex-col items-center ">
     <!-- top  -->
-    <nav class="flex flex-row items-center  gap-56  " style="height: 132px; width: 100%; ">
+    <nav class="flex flex-row items-center  gap-56 " style="height: 132px; width: 100%; ">
         <!-- logo -->
         <div class="mx-6">
            <a href="index.html"> <img src="../img/logo.png" alt="" width = 187px;  height=  60px;></a>
@@ -20,10 +20,10 @@
 
         <!-- menu -->
         <ul class="flex flex-row  gap-14 justify-center items-center ">
-            <li class="font-bold tracking-widest cursor-pointer">HOME</li>
-            <li class="font-bold text-gray-500 tracking-widest cursor-pointer hover:text-gray-800 transition-all ease-linear delay-100">OUR PRODUCT</li>
-            <li class="font-bold text-gray-500 tracking-widest cursor-pointer hover:text-gray-800 transition-all ease-linear delay-100">ABOUT</li>
-            <li class="font-bold text-gray-500 tracking-widest cursor-pointer hover:text-gray-800 transition-all ease-linear delay-100">CONTACT</li>
+            <li class="font-bold tracking-widest cursor-pointer"><a href="index.html">HOME</a></li>
+            <li class="font-bold text-gray-500 tracking-widest cursor-pointer hover:text-gray-800 transition-all ease-linear delay-100"><a href="#our_product">OUR PRODUCT</a></li>
+            <li class="font-bold text-gray-500 tracking-widest cursor-pointer hover:text-gray-800 transition-all ease-linear delay-100"><a href="#about">ABOUT</a></li>
+            <li class="font-bold text-gray-500 tracking-widest cursor-pointer hover:text-gray-800 transition-all ease-linear delay-100"><a href="#contact">CONTACT</a></li>
         </ul>
     </nav>
     <!--  -->
@@ -43,7 +43,7 @@
         </div>
 
         <!-- our product -->
-        <div class="flex flex-col justify-center items-center">
+        <div class="flex flex-col justify-center items-center " id="our_product">
             <h1 class="text-center  font-semibold text-3xl" style="width: 962px; height: 73px;  letter-spacing: 1.44px; margin-bottom: 20px;">Our Product</h1>
 
             <div class="flex flex-row flex-wrap gap-6  justify-center items-center t-product" style="width: 769px;  ">
@@ -56,7 +56,7 @@
             </div>
             
         <!-- About -->
-        <div class="flex flex-col gap-x-10 mt-28   items-center gap-y-56">
+        <div class="flex flex-col gap-x-10 mt-28   items-center gap-y-56" id="about">
             <h1 class="text-center  font-semibold text-3xl" style="width: 962px; height: 73px;  letter-spacing: 1.44px; ">About</h1>
         </div>
 
@@ -171,10 +171,10 @@
             <div >
                 <ul class=" " style="display: flex; flex-direction: column; gap: 24px; ">
                     <li class="font-semibold text-p text-base">MENU</li>
-                    <li style="font-size: 14px; " class="text-p font-normal "> <a href="#">Home</a></li>
-                    <li style="font-size: 14px; " class="text-p font-normal "> <a href="#">Our Products</a></li>
-                    <li style="font-size: 14px; " class="text-p font-normal "> <a href="#">About</a></li>
-                    <li style="font-size: 14px; " class="text-p font-normal "><a href="#">Contact </a></li>
+                    <li style="font-size: 14px; " class="text-p font-normal "> <a href="index.html">Home</a></li>
+                    <li style="font-size: 14px; " class="text-p font-normal "> <a href="#our_product">Our Products</a></li>
+                    <li style="font-size: 14px; " class="text-p font-normal "> <a href="#about">About</a></li>
+                    <li style="font-size: 14px; " class="text-p font-normal "><a href="#contact">Contact </a></li>
                 </ul>
             </div>
             <!-- follow us -->
@@ -190,7 +190,7 @@
             <!-- Contact -->
             <div >
                 <ul class=" " style="display: flex; flex-direction: column; gap: 24px; ">
-                    <li class="font-semibold text-p text-base">CONTACT US</li>
+                    <li class="font-semibold text-p text-base" id="contact">CONTACT US</li>
                     <li style="font-size: 14px; " class="text-p font-normal "> <p>We're always happy to help.</p></li>
                     <li style="font-size: 14px; " class="text-p font-normal "> <h1 style="color: #252525; font-size: 24px;" >romacoffee@gmail.com</h1> </li>
                     
